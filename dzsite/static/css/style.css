@@ -1,0 +1,21 @@
+body{
+    background: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: lightgreen;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightblue;
+}
