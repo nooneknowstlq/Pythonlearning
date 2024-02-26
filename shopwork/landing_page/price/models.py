@@ -2,15 +2,15 @@ from django.db import models
 
 
 class PriceCard(models.Model):
-    pc_value = models.CharField(max_length=30, verbose_name="Цена")
+    pc_value = models.CharField(max_length=30, verbose_name="Набор")
     pc_description = models.CharField(max_length=200, verbose_name="Описание")
 
     def __str__(self):
         return self.pc_description
 
     class Meta:
-        verbose_name = 'цену'
-        verbose_name_plural = 'Цены'
+        verbose_name = 'набор'
+        verbose_name_plural = 'Наборы'
 
 
 class PriceTable(models.Model):

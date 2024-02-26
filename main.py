@@ -1231,12 +1231,12 @@
 #     is_married = False
 #     return name, age, is_married
 #
-# # user = get_user()
-# # n, year, married = user
+# # users = get_user()
+# # n, year, married = users
 # n, year, married = get_user()
-# # print(user[0])
-# # print(user[1])
-# # print(user[2])
+# # print(users[0])
+# # print(users[1])
+# # print(users[2])
 # print(n, year, married)
 
 # tpl = (10, 20, 30)
@@ -4832,10 +4832,10 @@ import pickle
 # print(max_completed)
 #
 # users = []  # [5, 10]
-# for user, num_complete in top_users:
+# for users, num_complete in top_users:
 #     if num_complete < max_completed:    # 11 < 12
 #         break
-#     users.append(str(user))
+#     users.append(str(users))
 #
 # print(users)
 #
