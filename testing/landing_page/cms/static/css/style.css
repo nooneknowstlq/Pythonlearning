@@ -1,0 +1,189 @@
+.logo-top {
+  float: left;
+  margin: 0px 0px 5px 30px;
+}
+
+.phone-number {
+  width: 200px;
+  height: 40px;
+  float: right;
+  margin: 20px 10px 5px 20px;
+  padding-left: 15px;
+}
+
+.whatsapp-number {
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin: 15px 30px 5px 20px;
+  background: url(../cms/wa-image-color.png) no-repeat center top / cover;
+  transition: 0.5s ease-in-out;
+}
+.telegram-number {
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin: 15px 30px 5px 20px;
+  background: url(../cms/tg-image-color.png) no-repeat center top / cover;
+  transition: 0.5s ease-in-out;
+}
+
+.vk {
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin: 15px 30px 5px 20px;
+  background: url(../cms/vk-image.png) no-repeat center top / cover;
+  transition: 0.5s ease-in-out;
+}
+
+.instagram {
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin: 15px 30px 5px 20px;
+  background: url(../cms/inst-image.png) no-repeat center top / cover;
+  transition: 0.5s ease-in-out;
+}
+
+.slaider_h {
+	height: 60px;
+	width: 50%;
+	margin: 30px 0px 10px 0px;
+	padding-top: 20px;
+	background-color: rgba(10, 77, 125, 0.5);
+	text-align: center;
+}
+
+.slaider_p {
+	height: 100%;
+	width: 80%;
+	float: right;
+	margin: 0px 0px 30px 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgba(10, 77, 125, 0.5);
+	text-align: center;
+}
+
+.product_card {
+	margin: 10px;
+}
+
+.table_one {
+	font-size: 1.4em;
+}
+
+.class_form {
+  text-align: center;
+  padding-bottom: 7%;
+}
+.logo-bottom {
+
+  margin: 0 0 5px;
+}
+.thank{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: calc(100vh - 162px);
+}
+
+.navbar-light .navbar-brand {
+  width: 200px;
+  height: 40px;
+  float: left;
+  margin: 10px 10px 5px 20px;
+  text-align: center;
+}
+
+.nav-link {
+  width: 35px;
+  height: 35px;
+  float: left;
+  text-align: center;
+  margin: 15px 30px 5px 20px;
+  
+}
+
+a.nav-link {
+  color: beige;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+  width: 35px;
+  height: 35px;
+  float: left;
+  text-align: center;
+  margin: 15px 30px 5px 20px;
+  
+}
+
+
+
+.list-group1 a {
+  display: block;
+  /* background-color: grey; */
+  width: 100px;
+  line-height: 15px;
+  padding: 40px;
+  padding-left: 10px;
+  position: relative;
+  color: beige;
+  background-repeat: no-repeat;
+  box-shadow: 6px  6px 12px -3px black;
+  background-image: linear-gradient(90deg, #9824ac 20%, rgb(91, 91, 165) 40%, rgb(126, 198, 209) 100%)
+}
+
+.list-group1 a:hover {
+  color: black;
+  text-decoration: underline;
+  transform: scale(1.1);
+  z-index: 10; 
+}
+
+.list-group1 a:visited {
+  color: whitesmoke;
+}
+
+.price{
+  color: orange;
+  margin: 20px 0;
+}
+
+.col-lg-5 {
+  padding: 30px;
+}
+
+.small {
+  padding: 15px;
+  position: relative;
+}
+
+.col-lg-9 {
+  margin: 24px 0;
+}
+
+.tags { 
+  list-style: none;
+  padding-left: 0;
+  color: red;
+}
+
+.bg-light1 {
+  background-image: linear-gradient(90deg, #9824ac 10%, rgb(91, 91, 165) 30%, rgb(126, 198, 209) 100%)
+  /* border: 1px solid black; */
+}
+
+body {
+  background-image: linear-gradient(90deg, #9824ac 10%, rgb(91, 91, 165) 30%, rgb(126, 198, 209) 100%) !important;
+}
+
+.title{
+  color: orange;
+  margin: 20px 0;
+}
+
+.carousel-inner {
+  height: 550px;
+}
+
+
